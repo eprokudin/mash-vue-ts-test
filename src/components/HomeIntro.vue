@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import BaseButton from './BaseButton.vue'
 
 const emit = defineEmits<{
   (e: 'start', mode: 'classic' | 'modern'): void
@@ -63,8 +62,6 @@ const emit = defineEmits<{
           <p class="text-neutral-600 leading-relaxed group-hover:text-neutral-700 transition-colors duration-300">
             Old-school categories with a nostalgic twist. Pick your options and let the time-tested elimination decide your fate.
           </p>
-          
-
         </div>
       </button>
 
@@ -96,8 +93,6 @@ const emit = defineEmits<{
           <p class="text-neutral-600 leading-relaxed group-hover:text-neutral-700 transition-colors duration-300">
             A cheeky, updated set with contemporary chaos and modern twists. Same MASH thrill, fresh new laughs.
           </p>
-          
-
         </div>
       </button>
     </div>
